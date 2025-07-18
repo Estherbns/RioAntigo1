@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rio Antigo</title>
     <!-- <link href="css/parametro.css" rel="stylesheet">  -  pega os comando css criados no outro arquivo css-->
-    <link href="css/rioantigo.css" rel="stylesheet"> 
     <link href="css/menu2.css" rel="stylesheet"> 
 </head>
 
@@ -19,7 +18,7 @@
             </h1>
             <nav class="hmenu">
                 <ul>
-                    <li><a href = "documento.html">home</a></li>
+                    <li><a href = "#">home</a></li>
                     <li><a href = "fotos.html">fotos</a></li>
                     <li><a href = "contato.html">contato</a></li>
                     <li><a href = "sobre.html">sobre</a></li>
@@ -28,29 +27,26 @@
         </div>
 
     </header>
-    <main class="conteudo-principal">
+    <main>
 
-     
         <h1 id="titulo01"> A história do Rio Antigo</h1>
         <hr>
-     <section id="precabralino" class="conteudo-secao"></section>
-       
-            <h3 class="cabecalho-secao">Período Pré-Cabralino</h3>
-            <p>Por volta do ano 1000, a maior parte do atual litoral brasileiro, incluindo o território da atual
-                cidade do <strong>Rio de Janeiro</strong>, foi invadida por povos tupis procedentes da Amazônia.
-            </p>
-            <p>
-                <span class="titulo-curiosidade">Curiosidades: </span>Os tapuias eram os habitantes do litoral da cidade do <strong>Rio de Janeiro</strong>.
-            </p>
-            <p>
-                No início do século XVI, o território da cidade do <strong>Rio de Janeiro</strong> era ocupado na sua maior parte
-                pela tribo tupi dos tupinambás, também chamados tamoios. Uma das inúmeras aldeias tupinambás no território da
-                atual cidade do <strong>Rio de Janeiro</strong> era a aldeia Carioca, cujo nome viria a se tornar, posteriormente, o gentílico da
-                cidade.
-            </p>
-        </section>
 
-        <section id="colonial" class="conteudo-secao">
+        <p>
+            <h2>Período Pré-Cabralino</h2>
+        </p>
+
+        <p>Por volta do ano 1000, a maior parte do atual litoral brasileiro, incluindo o território da atual
+            cidade do Rio de Janeiro, foi invadida por povos tupis procedentes da Amazônia.</p>
+
+        <p><strong>Curiosidades:</strong> Os tapuias eram os habitantes do litoral da cidade do Rio de Janeiro.</p>
+
+        <p class="fonte_peq"> No início do século XVI, o território da cidade do Rio de Janeiro era ocupado na sua maior
+            parte pela tribo tupi dos tupinambás, também chamados tamoios. Uma das inúmeras aldeias
+            tupinambás no território da atual cidade do Rio de Janeiro era a aldeia Carioca, cujo nome viria
+            a se tornar, posteriormente, o gentílico da cidade.</p>
+
+        <section>
             <p>
                 <h2>Período Colonial</h2>
             </p>
@@ -59,7 +55,7 @@
                 em 1º de janeiro de 1502, durante a viagem do florentino Américo Vespúcio de
                 reconhecimento da costa da América Portuguesa.</p>
 
-            <p><span class="titulo-curiosidade">Curiosidades:</span> França Antártica, tentativa de colonização francesa no interior da Baía de
+            <p><strong>Curiosidades:</strong> França Antártica, tentativa de colonização francesa no interior da Baía de
                 Guanabara.</p>
 
             <p>A cidade de "São Sebastião do Rio de Janeiro" foi fundado por Estácio de Sá em 1° de março de
@@ -67,7 +63,7 @@
                 Açúcar, erguendo uma paliçada defensiva.</p>
         </section>
 
-        <section id="imperial" class="conteudo-secao">
+        <div>
             <p>
                 <h2>Período Imperial</h2>
             </p>
@@ -76,13 +72,13 @@
                 província do Rio de Janeiro enriqueceu com a agricultura canavieira da região de Campos e,
                 principalmente, com o novo cultivo do café no Vale do Paraíba.</p>
 
-            <p><span class="titulo-curiosidade">Curiosidades:</span> O Corpo de Bombeiros foi criado em 1855.</p>
+            <p><strong>Curiosidades:</strong> O Corpo de Bombeiros foi criado em 1855.</p>
 
             <p>De modo a separar a província da capital do Império, a cidade foi compreendida, no ano de
                 1834, no Município Neutro, passando a Província do Rio de Janeiro a ter Niterói como capita</p>
-        </section>
-        <section id="republicano" class="conteudo-secao">
-            <p>
+        </div>
+        <div>
+            <p id="item4">
                 <h2>Período republicano</h2>
             </p>
 
@@ -90,26 +86,13 @@
                 Açúcar, entre a Praia Vermelha e o Morro da Urca. O chamado "bondinho do Pão de Açúcar" se tornaria um
                 dos grandes símbolos da cidade.</p>
 
-            <p><span class="titulo-curiosidade">Curiosidades:</span> A estátua do Cristo Redentor foi inaugurada em 12 de agosto de 1931.</p>
+            <p><strong>Curiosidades:</strong> A estátua do Cristo Redentor foi inaugurada em 12 de agosto de 1931.</p>
 
             <p>Em 1960, após a transferência da capital federal para Brasília, o antigo Distrito Federal, onde
                 se situava a cidade do Rio de Janeiro, se tornou o estado da Guanabara</p>
 
-        </section>
+        </div>
     </main>
-
-    <footer class="rodape">
-        <div>
-            <h3>Senac</h3>
-        </div>
-        <hr>
-        <div>
-            <h4>Fontes</h4>
-            <ul>
-                <li>E-mail: sobre@rj.senac.br</li>
-                <li>Contato: Alunos e professor do Senac</li>
-        </div>
-   </footer>
 </body>
 
 </html>
